@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico HTML - Julian Cadenas 3k9</title>
+</head>
+<body>
+    <header>Trabajo Practico HTML - Julian Cadenas 3k9.</header>
+
+    <nav>
+        <ul>
+            <li><a href="#estructura">Ir a Estructura</a></li>
+            <li><a href="#listas">Ir a Listas</a></li>
+            <li><a href="#tablas">Ir a tablas</a></li>
+            <li><a href="#formu">Ir al formulario</a></li>
+        </ul>
+    </nav>
+    
+<main>
+    <section id="estructura">
+    <h1>1. Estructura Básica del Documento HTML</h1>
+    <p>Este documento HTML tiene una estructura básica que incluye la
+         declaración de DOCTYPE, etiquetas de metadatos y un título</p>
+    </section>
+
+    <section>
+        <h1>2. Encabezados y Propiedades del Texto</h1>
+        <h2 style="font-weight: bold;">Esto es un h2 en negrita.</h2>
+        <h3 style="font-style: italic;">Esto es un h3 en cursiva.</h3>
+        <h4 style="text-decoration: underline;">Esto es un h4 subrayado.</h4>
+        <h5><span style="background-color: lightblue;">Esto es un h5 resaltado.</span></h5>
+        <h6>Esto es un h6 normal.</h6>
+    </section>
+
+    <section>
+        <h1>3. Divisiones y Agrupación de Contenido</h1>
+        <div>
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada en un div.</p>
+        </div>
+
+        <div>
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+        </div>
+    </section>
+
+    <section id="listas">
+    <h1>4. Enlaces y Listas</h1>
+    <a href="https://github.com/Juliccc/TP-HTML-desarrollo-de-sfw" target="_blank">Enlace al repositorio en github</a>
+
+    <div>
+        <p>Lista desordenada: </p>
+        <ul>
+            <li>Primer ítem de una lista desordenada</li>
+            <li>Segundo ítem de una lista desordenada</li>
+        </ul>
+
+        <p>Lista ordenada - Tabla de posiciones superliga Mendoza: </p>
+        <ol>
+            <li>Club Israelita Macabi de Mendoza</li>
+            <li>San José</li>          
+            <li>Asociación Civil Rivadavia Básquet</li>
+            <li>Club Godoy Cruz Antonio Tomba</li>
+            <li>Atenas Sport Club</li>
+            <li>Atletico Club San Martin</li>
+            <li>Club Mendoza de Regatas</li>
+            <li>Club Leonardo Murialdo</li>
+            <li>Municipalidad de San Carlos</li>
+            <li>Municipalidad de la Ciudad de Mendoza</li>
+            <li>Asociación Deportiva Anzorena</li>
+            <li>Municipalidad de Lujan de Cuyo</li>
+        </ol>
+    </div>
+    </section>
+
+    <section>
+    <h1>5. Elementos Multimedia</h1>
+    <div>
+        <li>Imagen: </li><br>
+        <img src="https://scontent.fmdz6-1.fna.fbcdn.net/v/t39.30808-6/363454968_766572708811560_2628306750352159183_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=YDV7_j6dBHIQ7kNvgHwl_3Q&_nc_ht=scontent.fmdz6-1.fna&_nc_gid=AOU1NpchrgncbqpcuwUX5XI&oh=00_AYBm_URseJ1JAUQdcuxRNJsr0FlfL-927jmOiyw6n2d1qw&oe=66CA9482" alt="Es una imagen" width="200px" height="200px" />
+
+        <li>Video de Youtube: </li><br>
+        <iframe width="656" height="369" src="https://www.youtube.com/embed/yo0JkFMFM3A" title="TANDA DE PENALES - ARGENTINA 3 (4) - 3 (2) FRANCIA | FINAL CATAR 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <li>Video local: </li><br>
+        <video src="Video/Nuestro Primer HTML.mp4"
+        controls ></video>
+
+        <li>Audio local: </li><br>
+        <audio src="audio/Friends.mp3" controls ></audio>
+
+    </div>
+    </section>
+
+    <section id="tablas">
+        <h1>6. Tablas</h1>
+        <table border="1">
+            <caption><b>Paises de América con más títulos internacionales en el futbol</b></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Argentina</th>
+                    <th>Uruguay</th>
+                    <th>Brasil</th>
+                    <th>México</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><b>Mundiales<b</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td><b>Copas América</b></td>
+                    <td>16</td>
+                    <td>15</td>
+                    <td>9</td>
+                    <td>0</td>
+                </tr>
+
+                <tr>
+                    <td><b>Otros títulos</b></td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td>23 títulos</td>
+                    <td>19 títulos</td>
+                    <td>20 títulos</td>
+                    <td>15 títulos</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="formu">
+    <h1>7. Formularios</h1>
+    <form>
+    <div>
+        <label>Nombre</label>
+        <input type="text" placeholder="Ingrese su Nombre">
+    </div>
+    <div>
+        <label>Apellido</label>
+        <input type="text" placeholder="Ingrese su Apellido"> 
+    </div>  
+    <div>
+        <label>Email</label>
+        <input type="email" placeholder="Ingrese su email">
+    </div>
+    <div>
+        <label>Número de telefono</label>
+        <input type="number" placeholder="Ingrese su telefono">
+    </div>
+    <div>
+        <label>Mensaje</label>
+        <textarea placeholder="Ingrese un mensaje"></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+    </form>
+    </section>
+</main><br>
+<footer>Este es el final de la página, gracias por su visita.</footer>
+</body>
+</html>
